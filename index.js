@@ -74,7 +74,7 @@ function checker(password) {
         return "Medium";
     }
     else if (password.length > 12) {
-        if (/[a-z]/.test(password) && /[A-Z]/.test(password) && /[0-9]/.test(password)) { //bunu internetde tapdim regex nendi.
+        if (/[a-z]/.test(password) && /[A-Z]/.test(password) && /[0-9]/.test(password)) {
             return "Strong";
         } else {
             return "Medium";
